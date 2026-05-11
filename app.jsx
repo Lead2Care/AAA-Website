@@ -85,39 +85,38 @@ function Nav() {
 
 function Hero() {
   return (
-    <section style={{ position: "relative", minHeight: "100vh", display: "flex", alignItems: "center", overflow: "hidden", background: "#06060a" }}>
-      <div style={{ position: "absolute", inset: 0, backgroundImage: "linear-gradient(rgba(0,229,255,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(0,229,255,0.04) 1px,transparent 1px)", backgroundSize: "60px 60px", mask: "radial-gradient(ellipse 80% 70% at 50% 50%,black,transparent)", WebkitMask: "radial-gradient(ellipse 80% 70% at 50% 50%,black,transparent)" }} />
-      <div style={{ position: "absolute", top: "15%", left: "10%", width: 500, height: 500, borderRadius: "50%", background: "radial-gradient(circle,rgba(0,102,255,0.12) 0%,transparent 70%)", filter: "blur(40px)", pointerEvents: "none" }} />
-      <div style={{ position: "absolute", bottom: "10%", right: "5%", width: 400, height: 400, borderRadius: "50%", background: "radial-gradient(circle,rgba(0,229,255,0.08) 0%,transparent 70%)", filter: "blur(40px)", pointerEvents: "none" }} />
+    <section style={{ position: "relative", minHeight: "100vh", display: "flex", alignItems: "center", overflow: "hidden", background: "#0a1020" }}>
+      <div style={{ position: "absolute", inset: 0, backgroundImage: "linear-gradient(rgba(0,191,255,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(0,191,255,0.04) 1px,transparent 1px)", backgroundSize: "60px 60px", mask: "radial-gradient(ellipse 80% 70% at 50% 50%,black,transparent)", WebkitMask: "radial-gradient(ellipse 80% 70% at 50% 50%,black,transparent)" }} />
+      <div style={{ position: "absolute", top: "15%", left: "10%", width: 500, height: 500, borderRadius: "50%", background: "radial-gradient(circle,rgba(168,85,247,0.12) 0%,transparent 70%)", filter: "blur(40px)", pointerEvents: "none" }} />
+      <div style={{ position: "absolute", bottom: "10%", right: "5%", width: 400, height: 400, borderRadius: "50%", background: "radial-gradient(circle,rgba(0,191,255,0.08) 0%,transparent 70%)", filter: "blur(40px)", pointerEvents: "none" }} />
 
-      <div style={{ maxWidth: 1180, margin: "0 auto", padding: "140px clamp(20px,5vw,60px) 100px", position: "relative", zIndex: 1 }}>
-        <div style={{ maxWidth: 760 }}>
-          <div style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "rgba(0,229,255,0.08)", border: "1px solid rgba(0,229,255,0.2)", borderRadius: 100, padding: "6px 16px", marginBottom: 32, animation: "fadeDown 0.7s ease forwards" }}>
-            <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#00e5ff", boxShadow: "0 0 8px #00e5ff", display: "inline-block" }} />
-            <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 600, color: "#00e5ff", letterSpacing: "1.5px", textTransform: "uppercase" }}>AI Strategy for Australian Businesses</span>
+      <div style={{ maxWidth: 1080, margin: "0 auto", padding: "140px clamp(20px,5vw,60px) 100px", position: "relative", zIndex: 1 }}>
+        <div>
+          <div style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "rgba(0,191,255,0.08)", border: "1px solid rgba(0,191,255,0.2)", borderRadius: 100, padding: "6px 16px", margin: "32px 0 32px -6px", animation: "fadeDown 0.7s ease forwards" }}>
+            <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#00bfff", boxShadow: "0 0 8px #00bfff", display: "inline-block" }} />
+            <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 600, color: "#00bfff", letterSpacing: "1.5px", textTransform: "uppercase" }}>AI Strategy for Australian Businesses</span>
           </div>
 
-          <h1 style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: "clamp(36px,5.5vw,68px)", lineHeight: 1.05, color: "#fff", letterSpacing: "-1.5px", margin: "0 0 28px", animation: "fadeUp 0.8s ease 0.1s both" }}>
-            Scale your business<br />
-            <span style={{ background: "linear-gradient(90deg,#00e5ff,#0066ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>without sacrificing</span><br />
-            your time, team or profit
+          <h1 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(40px,5.5vw,64px)", lineHeight: 1.05, color: "#fff", letterSpacing: "-1.5px", animation: "fadeUp 0.8s ease 0.1s both", margin: "0px 0px 28px", whiteSpace: "normal", maxWidth: 720 }}>
+            Learn How To Automate Your Business{" "}
+            <span style={{ background: "linear-gradient(90deg,#ec4899,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", whiteSpace: "nowrap" }}>In 7 Days</span>
           </h1>
 
           <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: "clamp(16px,2vw,19px)", lineHeight: 1.7, color: "rgba(255,255,255,0.6)", maxWidth: 560, margin: "0 0 44px", animation: "fadeUp 0.8s ease 0.2s both" }}>
-            We show Australian service-based businesses exactly what to automate, what to ignore, and how to implement it — without the overwhelm.
+            We offer practical AI strategy for growing businesses on what to automate, what to ignore, and how to implement AI - without adding more overwhelm.
           </p>
 
           <div style={{ display: "flex", gap: 16, flexWrap: "wrap", animation: "fadeUp 0.8s ease 0.3s both" }}>
             <a href={CALENDLY} target="_blank" rel="noreferrer" style={{
               fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 15, letterSpacing: "0.8px",
-              color: "#000", background: "linear-gradient(90deg,#00e5ff,#0066ff)", padding: "16px 36px",
+              color: "#000", background: "linear-gradient(90deg,#ec4899,#a855f7)", padding: "16px 36px",
               borderRadius: 8, textDecoration: "none", textTransform: "uppercase", display: "inline-flex", alignItems: "center", gap: 10,
-              boxShadow: "0 0 40px rgba(0,229,255,0.25)", transition: "box-shadow 0.3s, transform 0.2s"
+              boxShadow: "0 0 40px rgba(0,191,255,0.25)", transition: "box-shadow 0.3s, transform 0.2s"
             }}
-              onMouseEnter={e => { e.currentTarget.style.boxShadow = "0 0 60px rgba(0,229,255,0.4)"; e.currentTarget.style.transform = "translateY(-2px)"; }}
-              onMouseLeave={e => { e.currentTarget.style.boxShadow = "0 0 40px rgba(0,229,255,0.25)"; e.currentTarget.style.transform = "translateY(0)"; }}
+              onMouseEnter={e => { e.currentTarget.style.boxShadow = "0 0 60px rgba(0,191,255,0.4)"; e.currentTarget.style.transform = "translateY(-2px)"; }}
+              onMouseLeave={e => { e.currentTarget.style.boxShadow = "0 0 40px rgba(0,191,255,0.25)"; e.currentTarget.style.transform = "translateY(0)"; }}
             >
-              Book a Call
+              Book A Free Discovery Call
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
           </div>
@@ -135,87 +134,124 @@ function Hero() {
   );
 }
 
-function Problem() {
-  const items = [
-    "Trying random tools that don't connect to anything",
-    "Spending hours learning AI with no real outcome",
-    "Investing in things they don't fully understand",
-    "Still doing manual work they should have automated months ago",
+function ProblemSolution() {
+  const problems = [
+    "Experimenting with disconnected tools",
+    "Wasting time learning systems they'll never use",
+    "Investing in AI without understanding the real ROI",
+    "Still buried in manual work that should already be streamlined",
   ];
-  return (
-    <section id="services" style={{ background: "#08080e", padding: "100px clamp(20px,5vw,60px)" }}>
-      <div style={{ maxWidth: 1180, margin: "0 auto" }}>
-        <FadeIn>
-          <div style={{ display: "inline-block", fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", color: "#00e5ff", background: "rgba(0,229,255,0.07)", border: "1px solid rgba(0,229,255,0.15)", borderRadius: 100, padding: "5px 14px", marginBottom: 20 }}>The Problem</div>
-        </FadeIn>
-        <FadeIn delay={0.1}>
-          <h2 style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: "clamp(28px,4vw,46px)", color: "#fff", letterSpacing: "-1px", margin: "0 0 16px", lineHeight: 1.15 }}>
-            The problem isn't AI.<br />It's doing it <span style={{ color: "#00e5ff" }}>without a plan.</span>
-          </h2>
-        </FadeIn>
-        <FadeIn delay={0.15}>
-          <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 16, color: "rgba(255,255,255,0.5)", marginBottom: 52 }}>Right now, most business owners are:</p>
-        </FadeIn>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(260px,1fr))", gap: 16 }}>
-          {items.map((item, i) => (
-            <FadeIn key={i} delay={0.1 + i * 0.08}>
-              <div style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: 12, padding: "24px 28px", display: "flex", gap: 16, alignItems: "flex-start" }}>
-                <div style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,60,60,0.1)", border: "1px solid rgba(255,60,60,0.2)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 2 }}>
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#ff4444" strokeWidth="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-                </div>
-                <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.65)", lineHeight: 1.6, margin: 0 }}>{item}</p>
-              </div>
-            </FadeIn>
-          ))}
-        </div>
-        <FadeIn delay={0.5}>
-          <p style={{ fontFamily: "'Syne', sans-serif", fontWeight: 700, fontSize: 18, color: "rgba(255,255,255,0.4)", marginTop: 48, textAlign: "center", letterSpacing: "-0.3px" }}>
-            More complexity. Less clarity. <span style={{ color: "rgba(255,255,255,0.65)" }}>No real leverage.</span>
-          </p>
-        </FadeIn>
-      </div>
-    </section>
-  );
-}
 
-function Solution() {
-  const items = [
-    ["Find exactly where you're losing time, leads, and money", "🔍"],
-    ["Pinpoint what to automate first — and what to leave alone", "🎯"],
-    ["Build a clear, practical plan you can act on immediately", "📋"],
-    ["Avoid the expensive mistakes most businesses make early on", "🛡️"],
+  const solutions = [
+    "Uncover operational bottlenecks",
+    "Identify high-impact automation opportunities",
+    "Avoid unnecessary tools and complexity",
+    "Build a practical roadmap aligned with your operations and goals",
   ];
+
   return (
-    <section style={{ background: "#06060a", padding: "100px clamp(20px,5vw,60px)", position: "relative", overflow: "hidden" }}>
-      <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)", width: 700, height: 700, borderRadius: "50%", background: "radial-gradient(circle,rgba(0,102,255,0.06) 0%,transparent 70%)", pointerEvents: "none" }} />
+    <section id="services" style={{ background: "#0d1424", padding: "100px clamp(20px,5vw,60px)", position: "relative", overflow: "hidden" }}>
+      <div style={{ position: "absolute", top: "30%", left: "10%", width: 500, height: 500, borderRadius: "50%", background: "radial-gradient(circle,rgba(236,72,153,0.06),transparent 70%)", filter: "blur(60px)", pointerEvents: "none" }}></div>
+      <div style={{ position: "absolute", bottom: "20%", right: "10%", width: 500, height: 500, borderRadius: "50%", background: "radial-gradient(circle,rgba(0,191,255,0.06),transparent 70%)", filter: "blur(60px)", pointerEvents: "none" }}></div>
+
       <div style={{ maxWidth: 1180, margin: "0 auto", position: "relative" }}>
-        <FadeIn>
-          <div style={{ display: "inline-block", fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", color: "#00e5ff", background: "rgba(0,229,255,0.07)", border: "1px solid rgba(0,229,255,0.15)", borderRadius: 100, padding: "5px 14px", marginBottom: 20 }}>The Solution</div>
-        </FadeIn>
-        <FadeIn delay={0.1}>
-          <h2 style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: "clamp(28px,4vw,46px)", color: "#fff", letterSpacing: "-1px", margin: "0 0 52px", lineHeight: 1.15 }}>
-            We turn AI into something that<br /><span style={{ color: "#00e5ff" }}>actually works</span> in your business
-          </h2>
-        </FadeIn>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(240px,1fr))", gap: 20, marginBottom: 52 }}>
-          {items.map(([text, icon], i) => (
-            <FadeIn key={i} delay={0.1 + i * 0.08}>
-              <div style={{ background: "linear-gradient(135deg,rgba(0,229,255,0.05),rgba(0,102,255,0.03))", border: "1px solid rgba(0,229,255,0.12)", borderRadius: 14, padding: "28px 24px", height: "100%" }}>
-                <div style={{ fontSize: 28, marginBottom: 16 }}>{icon}</div>
-                <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.75)", lineHeight: 1.6, margin: 0 }}>{text}</p>
+        <div className="ps-grid" style={{ display: "grid", gridTemplateColumns: "1fr auto 1fr", gap: "clamp(24px,4vw,56px)", alignItems: "stretch" }}>
+
+          {/* PROBLEM SIDE */}
+          <FadeIn>
+            <div className="card-hover ps-card ps-problem" style={{ background: "linear-gradient(180deg,rgba(236,72,153,0.05),rgba(168,85,247,0.02))", border: "1px solid rgba(236,72,153,0.18)", borderRadius: 24, padding: "44px 40px", height: "100%", display: "flex", flexDirection: "column" }}>
+              <div style={{ display: "inline-block", alignSelf: "flex-start", fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", color: "#ec4899", background: "rgba(236,72,153,0.08)", border: "1px solid rgba(236,72,153,0.25)", borderRadius: 100, padding: "5px 14px", marginBottom: 24 }}>The Problem</div>
+
+              <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(26px,2.9vw,36px)", color: "#fff", letterSpacing: "-0.8px", margin: "0 0 8px", lineHeight: 1.15 }}>
+                AI can feel overwhelming.
+              </h2>
+              <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: 20, letterSpacing: "-0.8px", margin: "0 0 28px", lineHeight: 1.15, background: "linear-gradient(90deg,#ec4899,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+                Without a clear plan, most businesses end up adding more complexity instead of creating leverage.
+              </h2>
+
+              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", margin: "0 0 24px", lineHeight: 1.6 }}>Most businesses are:</p>
+
+              <div style={{ display: "flex", flexDirection: "column", gap: 14, marginBottom: 32 }}>
+                {problems.map((p, i) => (
+                  <div key={i} style={{ display: "flex", gap: 14, alignItems: "flex-start" }}>
+                    <div style={{ width: 22, height: 22, borderRadius: "50%", background: "rgba(236,72,153,0.12)", border: "1px solid rgba(236,72,153,0.4)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 2 }}>
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#ec4899" strokeWidth="3" strokeLinecap="round"><line x1="6" y1="12" x2="18" y2="12" /></svg>
+                    </div>
+                    <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.75)", lineHeight: 1.6, margin: 0 }}>{p}</p>
+                  </div>
+                ))}
               </div>
-            </FadeIn>
-          ))}
-        </div>
-        <FadeIn delay={0.5}>
-          <div style={{ textAlign: "center" }}>
-            <a href={CALENDLY} target="_blank" rel="noreferrer" style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 14, letterSpacing: "1px", color: "#000", background: "linear-gradient(90deg,#00e5ff,#0066ff)", padding: "15px 34px", borderRadius: 8, textDecoration: "none", textTransform: "uppercase", display: "inline-block", boxShadow: "0 0 30px rgba(0,229,255,0.2)", transition: "all 0.3s" }}
-              onMouseEnter={e => { e.currentTarget.style.boxShadow = "0 0 50px rgba(0,229,255,0.4)"; e.currentTarget.style.transform = "translateY(-2px)"; }}
-              onMouseLeave={e => { e.currentTarget.style.boxShadow = "0 0 30px rgba(0,229,255,0.2)"; e.currentTarget.style.transform = "translateY(0)"; }}
-            >Book a Call</a>
+
+              <div style={{ marginTop: "auto", paddingTop: 24, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
+                <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14, color: "rgba(255,255,255,0.5)", margin: "0 0 6px", fontWeight: 600 }}></p>
+                <p style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: 17, color: "rgba(255,255,255,0.85)", margin: 0, letterSpacing: "-0.2px", lineHeight: 1.4 }}>
+                  <br /><span style={{ color: "#ec4899" }}>More noise. Less clarity. Less capacity.</span>
+                </p>
+              </div>
+            </div>
+          </FadeIn>
+
+          {/* ARROW DIVIDER */}
+          <div className="ps-arrow" style={{ display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
+            <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
+              <div style={{ width: 1, flex: 1, background: "linear-gradient(180deg,transparent,rgba(236,72,153,0.4),rgba(168,85,247,0.4))" }}></div>
+              <div style={{ width: 56, height: 56, borderRadius: "50%", background: "#0d1424", border: "1px solid rgba(168,85,247,0.5)", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 0 30px rgba(168,85,247,0.3)", flexShrink: 0, margin: "16px 0" }}>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="url(#psGrad)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <defs><linearGradient id="psGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stopColor="#ec4899" /><stop offset="100%" stopColor="#00bfff" /></linearGradient></defs>
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </div>
+              <div style={{ width: 1, flex: 1, background: "linear-gradient(180deg,rgba(168,85,247,0.4),rgba(0,191,255,0.4),transparent)" }}></div>
+            </div>
           </div>
-        </FadeIn>
+
+          {/* SOLUTION SIDE */}
+          <FadeIn delay={0.15}>
+            <div className="card-hover ps-card ps-solution" style={{ background: "linear-gradient(180deg,rgba(0,191,255,0.05),rgba(168,85,247,0.03))", border: "1px solid rgba(0,191,255,0.2)", borderRadius: 24, padding: "44px 40px", height: "100%", display: "flex", flexDirection: "column" }}>
+              <div style={{ display: "inline-block", alignSelf: "flex-start", fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", color: "#00bfff", background: "rgba(0,191,255,0.08)", border: "1px solid rgba(0,191,255,0.25)", borderRadius: 100, padding: "5px 14px", marginBottom: 24 }}>The Solution</div>
+
+              <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(26px,2.9vw,36px)", color: "#fff", letterSpacing: "-0.8px", margin: "0 0 8px", lineHeight: 1.15 }}>
+                Practical AI solutions for real business operations.
+              </h2>
+              <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: 20, letterSpacing: "-0.8px", margin: "0 0 28px", lineHeight: 1.15, background: "linear-gradient(90deg,#00bfff,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+                Discover what's actually worth automating.
+              </h2>
+
+              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", margin: "0 0 24px", lineHeight: 1.6 }}>Through our strategic process we help you:</p>
+
+              <div style={{ display: "flex", flexDirection: "column", gap: 14, marginBottom: 32 }}>
+                {solutions.map((s, i) => (
+                  <div key={i} style={{ display: "flex", gap: 14, alignItems: "flex-start" }}>
+                    <div style={{ width: 22, height: 22, borderRadius: "50%", background: "rgba(0,191,255,0.12)", border: "1px solid rgba(0,191,255,0.4)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 2 }}>
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#00bfff" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+                    </div>
+                    <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.75)", lineHeight: 1.6, margin: 0 }}>{s}</p>
+                  </div>
+                ))}
+              </div>
+
+              <div style={{ marginTop: "auto", paddingTop: 24, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
+                <p style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: 17, color: "rgba(255,255,255,0.85)", margin: 0, letterSpacing: "-0.2px", lineHeight: 1.4 }}>
+                  <br /><span style={{ background: "linear-gradient(90deg,#00bfff,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Just practical systems that create more capacity.</span>
+                </p>
+              </div>
+            </div>
+          </FadeIn>
+
+        </div>
       </div>
+
+      <style>{`
+        @media(max-width:900px){
+          .ps-grid{grid-template-columns:1fr!important;gap:0!important}
+          .ps-arrow{height:80px!important;margin:8px 0}
+          .ps-arrow > div{flex-direction:row!important}
+          .ps-arrow > div > div:first-child,
+          .ps-arrow > div > div:last-child{width:auto!important;height:1px!important;flex:1;background:linear-gradient(90deg,transparent,rgba(168,85,247,0.4),transparent)!important;margin:0!important}
+          .ps-arrow > div > div:nth-child(2){margin:0 16px!important}
+          .ps-card{padding:32px 24px!important}
+        }
+      `}</style>
     </section>
   );
 }
@@ -223,36 +259,37 @@ function Solution() {
 function Services() {
   const includes = [
     "A deep-dive AI business audit to uncover time, cost and conversion leaks",
-    "A clear, prioritised AI implementation roadmap tailored to your goals",
-    "A vetted local AI developer matched to your niche, tech stack and working style",
-    "A dedicated client success manager guiding you through the entire build",
+    "A clear roadmap designed around your workflows and goals",
+    "Practical AI tools aligned with your business needs and workflows",
+    "A prioritised action plan with practical next steps",
+    "Access to ongoing support and implementation pathways",
   ];
   return (
-    <section style={{ background: "#08080e", padding: "100px clamp(20px,5vw,60px)" }}>
-      <div style={{ maxWidth: 1180, margin: "0 auto" }}>
+    <section id="services" style={{ background: "#0d1424", padding: "100px clamp(20px,5vw,60px)" }}>
+      <div style={{ maxWidth: 1080, margin: "0 auto" }}>
         <FadeIn>
-          <div style={{ display: "inline-block", fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", color: "#00e5ff", background: "rgba(0,229,255,0.07)", border: "1px solid rgba(0,229,255,0.15)", borderRadius: 100, padding: "5px 14px", marginBottom: 20 }}>Our Services</div>
+          <div style={{ display: "inline-block", fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", color: "#00bfff", background: "rgba(0,191,255,0.07)", border: "1px solid rgba(0,191,255,0.15)", borderRadius: 100, padding: "5px 14px", marginBottom: 20 }}>Our Services</div>
         </FadeIn>
         <div className="services-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 60, alignItems: "center" }}>
           <div>
             <FadeIn delay={0.1}>
-              <h2 style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: "clamp(28px,3.5vw,44px)", color: "#fff", letterSpacing: "-1px", margin: "0 0 20px", lineHeight: 1.15 }}>
-                AI Transformation<br /><span style={{ color: "#00e5ff" }}>Partner</span>
+              <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(31px,3.85vw,48px)", color: "#fff", letterSpacing: "-1px", margin: "0 0 20px", lineHeight: 1.15 }}>
+                AI Business Growth<br /><span style={{ color: "#00bfff" }}>Starter Kit</span>
               </h2>
             </FadeIn>
             <FadeIn delay={0.15}>
               <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.5)", lineHeight: 1.75, marginBottom: 28 }}>
-                We don't just advise on AI — we partner with you to design, build and implement the right solutions for your business.
+                We help businesses identify where AI can genuinely reduce operational friction, save time, and create capacity — without adding unnecessary complexity.
               </p>
             </FadeIn>
             <FadeIn delay={0.2}>
-              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14, fontWeight: 600, color: "rgba(255,255,255,0.4)", textTransform: "uppercase", letterSpacing: "1.5px", marginBottom: 20 }}>As your partner, you get:</p>
+              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14, fontWeight: 600, color: "rgba(255,255,255,0.4)", textTransform: "uppercase", letterSpacing: "1.5px", marginBottom: 20 }}>WHAT’S INCLUDED:</p>
             </FadeIn>
             {includes.map((item, i) => (
               <FadeIn key={i} delay={0.25 + i * 0.07}>
                 <div style={{ display: "flex", gap: 14, alignItems: "flex-start", marginBottom: 16 }}>
-                  <div style={{ width: 22, height: 22, borderRadius: "50%", background: "linear-gradient(135deg,#00e5ff,#0066ff)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 2 }}>
-                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#000" strokeWidth="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <div style={{ width: 22, height: 22, borderRadius: "50%", background: "rgba(0,191,255,0.15)", border: "1px solid rgba(0,191,255,0.4)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 2 }}>
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#00bfff" strokeWidth="3"><polyline points="20 6 9 17 4 12"/></svg>
                   </div>
                   <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.7)", lineHeight: 1.6, margin: 0 }}>{item}</p>
                 </div>
@@ -260,83 +297,40 @@ function Services() {
             ))}
           </div>
           <FadeIn delay={0.3}>
-            <div style={{ background: "linear-gradient(135deg,rgba(0,229,255,0.06),rgba(0,102,255,0.04))", border: "1px solid rgba(0,229,255,0.12)", borderRadius: 20, padding: "44px 40px" }}>
-              <div style={{ fontSize: 40, marginBottom: 20 }}>🤝</div>
-              <h3 style={{ fontFamily: "'Syne', sans-serif", fontWeight: 700, fontSize: 22, color: "#fff", margin: "0 0 16px" }}>Not a one-off call.</h3>
+            <div className="card-hover" style={{ background: "linear-gradient(135deg,rgba(0,191,255,0.06),rgba(168,85,247,0.04))", border: "1px solid rgba(0,191,255,0.12)", borderRadius: 20, padding: "44px 40px" }}>
+              <div style={{ marginBottom: 20 }} dangerouslySetInnerHTML={{ __html: `<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#00bfff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13l3-3 3 3 4-4 4 4 4-4"/><path d="M3 13v3l5 4 4-3 4 3 5-4v-3"/></svg>` }} />
+              <h3 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: 22, color: "#fff", margin: "0 0 16px" }}>Implementation Pathways</h3>
               <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", lineHeight: 1.75, margin: "0 0 28px" }}>
-                You're getting a complete AI transformation — from diagnosis and roadmap, to a vetted team that actually delivers it.
+                Once your roadmap is complete, we help you identify the most practical next steps based on your business goals, systems, budget, and level of support required. For some businesses, that may mean simple internal improvements using existing tools. For others, it may involve workshops, guided support, or connecting with trusted specialists from our vetted network. Our role is to help you move forward with clarity — without unnecessary complexity, overwhelm, or wasted spend.
               </p>
               <div style={{ borderTop: "1px solid rgba(255,255,255,0.07)", paddingTop: 24 }}>
                 <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 13, color: "rgba(255,255,255,0.35)", margin: 0, lineHeight: 1.7 }}>
-                  From diagnosis and roadmap → vetted developer match → dedicated success manager throughout the entire build.
+                  From operational clarity → practical implementation pathways
                 </p>
               </div>
             </div>
           </FadeIn>
         </div>
+        <FadeIn delay={0.4}>
+          <div style={{ marginTop: 56, position: "relative", padding: "34px 40px", background: "linear-gradient(135deg,rgba(0,191,255,0.08),rgba(168,85,247,0.06))", border: "1px solid rgba(0,191,255,0.25)", borderRadius: 18, overflow: "hidden" }}>
+            <div style={{ position: "absolute", inset: 0, background: "radial-gradient(circle at 0% 0%, rgba(0,191,255,0.18), transparent 55%)", pointerEvents: "none" }} />
+            <p style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 600, fontSize: "clamp(17px,1.8vw,22px)", color: "#fff", lineHeight: 1.5, margin: 0, letterSpacing: "-0.3px", position: "relative" }}>
+              No unrealistic promises or unnecessary complexity. <span style={{ background: "linear-gradient(90deg,#00bfff,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Just practical guidance designed to help your business operate more smoothly and sustainably.</span>
+            </p>
+          </div>
+        </FadeIn>
+        <FadeIn delay={0.5}>
+          <div style={{ marginTop: 64, textAlign: "center" }}>
+            <a href="#starter-kit" onClick={e => { e.preventDefault(); const t = document.getElementById('starter-kit'); if (t) window.scrollTo({ top: t.getBoundingClientRect().top + window.pageYOffset - 20, behavior: 'smooth' }); }} style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 14, letterSpacing: "1px", color: "#000", background: "linear-gradient(90deg,#ec4899,#a855f7)", padding: "15px 40px", borderRadius: 8, textDecoration: "none", textTransform: "uppercase", display: "inline-block", boxShadow: "0 0 30px rgba(0,191,255,0.2)", transition: "all 0.3s", cursor: "pointer" }}
+              onMouseEnter={e => { e.currentTarget.style.boxShadow = "0 0 50px rgba(0,191,255,0.4)"; e.currentTarget.style.transform = "translateY(-2px)"; }}
+              onMouseLeave={e => { e.currentTarget.style.boxShadow = "0 0 30px rgba(0,191,255,0.2)"; e.currentTarget.style.transform = "translateY(0)"; }}
+            >
+              Get Started
+            </a>
+          </div>
+        </FadeIn>
       </div>
       <style>{`@media(max-width:768px){.services-grid{grid-template-columns:1fr!important}}`}</style>
-    </section>
-  );
-}
-
-function Outcome() {
-  const roadmap = [
-    "A clear automation roadmap you can act on immediately",
-    "Identified time and cost leaks across your operations",
-    "The right tools for your situation (not just whatever's trending)",
-    "A step-by-step plan for implementation",
-  ];
-  const partner = [
-    "Match you with the most appropriate local AI developer based on niche experience, technical skill set and communication style",
-    "Pair you with a dedicated client success manager to keep the whole build on track",
-  ];
-  return (
-    <section style={{ background: "#06060a", padding: "100px clamp(20px,5vw,60px)" }}>
-      <div style={{ maxWidth: 1180, margin: "0 auto" }}>
-        <FadeIn>
-          <div style={{ display: "inline-block", fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", color: "#00e5ff", background: "rgba(0,229,255,0.07)", border: "1px solid rgba(0,229,255,0.15)", borderRadius: 100, padding: "5px 14px", marginBottom: 20 }}>The Outcome</div>
-        </FadeIn>
-        <FadeIn delay={0.1}>
-          <h2 style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: "clamp(26px,3.5vw,44px)", color: "#fff", letterSpacing: "-1px", margin: "0 0 48px", lineHeight: 1.15 }}>
-            Walk away knowing exactly <span style={{ color: "#00e5ff" }}>what to do,<br />who will do it</span>, and who has your back
-          </h2>
-        </FadeIn>
-        <div className="two-col-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
-          <FadeIn delay={0.15}>
-            <div style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: 16, padding: "32px 28px" }}>
-              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 700, letterSpacing: "1.5px", textTransform: "uppercase", color: "#00e5ff", marginBottom: 24 }}>After your audit</p>
-              {roadmap.map((item, i) => (
-                <div key={i} style={{ display: "flex", gap: 12, alignItems: "flex-start", marginBottom: 16 }}>
-                  <div style={{ width: 20, height: 20, borderRadius: "50%", background: "rgba(0,229,255,0.15)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 2 }}>
-                    <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" strokeWidth="3"><polyline points="20 6 9 17 4 12"/></svg>
-                  </div>
-                  <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14, color: "rgba(255,255,255,0.65)", lineHeight: 1.6, margin: 0 }}>{item}</p>
-                </div>
-              ))}
-            </div>
-          </FadeIn>
-          <FadeIn delay={0.2}>
-            <div style={{ background: "linear-gradient(135deg,rgba(0,229,255,0.06),rgba(0,102,255,0.04))", border: "1px solid rgba(0,229,255,0.15)", borderRadius: 16, padding: "32px 28px" }}>
-              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 700, letterSpacing: "1.5px", textTransform: "uppercase", color: "#00e5ff", marginBottom: 24 }}>As your AI transformation partner, we</p>
-              {partner.map((item, i) => (
-                <div key={i} style={{ display: "flex", gap: 12, alignItems: "flex-start", marginBottom: 16 }}>
-                  <div style={{ width: 20, height: 20, borderRadius: "50%", background: "rgba(0,229,255,0.15)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 2 }}>
-                    <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" strokeWidth="3"><polyline points="20 6 9 17 4 12"/></svg>
-                  </div>
-                  <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14, color: "rgba(255,255,255,0.65)", lineHeight: 1.6, margin: 0 }}>{item}</p>
-                </div>
-              ))}
-              <div style={{ marginTop: 24, padding: "16px 20px", background: "rgba(0,229,255,0.05)", borderRadius: 10, borderLeft: "3px solid #00e5ff" }}>
-                <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14, color: "rgba(255,255,255,0.7)", lineHeight: 1.6, margin: 0 }}>
-                  You won't walk away with another report that gathers dust. You'll have a clear roadmap, a vetted team, and a dedicated success manager.
-                </p>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </div>
-      <style>{`@media(max-width:768px){.two-col-grid{grid-template-columns:1fr!important}}`}</style>
     </section>
   );
 }
@@ -350,7 +344,7 @@ function WhyUs() {
         </FadeIn>
         <FadeIn delay={0.1}>
           <h2 style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: "clamp(26px,3.5vw,44px)", color: "#fff", letterSpacing: "-1px", margin: "0 0 20px", lineHeight: 1.15, maxWidth: 680 }}>
-            You don't need more tools.<br />You need the <span style={{ color: "#00e5ff" }}>right plan</span> — and the right team.
+            AI Strategy Built Around Real Business Operations<br /><span style={{ color: "#00e5ff" }}></span>
           </h2>
         </FadeIn>
         <div className="why-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24, marginTop: 48 }}>
@@ -358,23 +352,23 @@ function WhyUs() {
             <div style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: 16, padding: "32px 28px" }}>
               <div style={{ fontSize: 32, marginBottom: 20 }}>🔭</div>
               <h3 style={{ fontFamily: "'Syne', sans-serif", fontWeight: 700, fontSize: 20, color: "#fff", margin: "0 0 14px" }}>Holistic Business View</h3>
-              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", lineHeight: 1.75, margin: 0 }}>We don't just look at AI. We look at your entire business — sales, operations, and delivery — so automation actually works in the real world, not just on a slide deck.</p>
+              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", lineHeight: 1.75, margin: 0 }}>Most AI providers understand tools. We focus on understanding your business first — how it operates, where friction exists, what’s slowing growth, and where AI can create genuine operational leverage.</p>
             </div>
           </FadeIn>
           <FadeIn delay={0.2}>
             <div style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: 16, padding: "32px 28px" }}>
               <div style={{ fontSize: 32, marginBottom: 20 }}>🏥</div>
-              <h3 style={{ fontFamily: "'Syne', sans-serif", fontWeight: 700, fontSize: 20, color: "#fff", margin: "0 0 14px" }}>Industry Experience</h3>
-              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", lineHeight: 1.75, margin: 0 }}>We've worked across service-based industries including NDIS and healthcare, construction and real estate. We know how to create efficiency without breaking what's already working.</p>
+              <h3 style={{ fontFamily: "'Syne', sans-serif", fontWeight: 700, fontSize: 20, color: "#fff", margin: "0 0 14px" }}>Local Experts</h3>
+              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", lineHeight: 1.75, margin: 0 }}>We work alongside a trusted network of Australian AI specialists, developers, and operational experts across a range of industries and business systems. As businesses grow and their needs evolve, we help connect them with the right expertise, practical support, and trusted implementation partners.</p>
             </div>
           </FadeIn>
         </div>
         <FadeIn delay={0.3}>
           <div style={{ margin: "48px 0", padding: "32px 36px", background: "linear-gradient(135deg,rgba(0,229,255,0.05),rgba(0,102,255,0.03))", border: "1px solid rgba(0,229,255,0.12)", borderRadius: 16, textAlign: "center" }}>
             <p style={{ fontFamily: "'Syne', sans-serif", fontWeight: 700, fontSize: "clamp(18px,2.5vw,26px)", color: "rgba(255,255,255,0.85)", lineHeight: 1.5, margin: 0 }}>
-              Most businesses don't fail because they ignore AI.<br />
-              <span style={{ color: "#fff" }}>They fail because they implement the wrong things.</span><br />
-              <span style={{ color: "#00e5ff" }}>We make sure you don't.</span>
+              If you don't use AI your customers will choose competitors who do.<br />
+              <span style={{ color: "#fff" }}>We help you become the business they stay loyal to.</span><br />
+              <span style={{ background: "linear-gradient(90deg,#ec4899,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}></span>
             </p>
           </div>
         </FadeIn>
@@ -404,40 +398,40 @@ function WhyUs() {
 
 function Pricing() {
   return (
-    <section style={{ background: "#06060a", padding: "100px clamp(20px,5vw,60px)", position: "relative", overflow: "hidden" }}>
-      <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)", width: 600, height: 600, borderRadius: "50%", background: "radial-gradient(circle,rgba(0,229,255,0.07) 0%,transparent 70%)", pointerEvents: "none" }} />
+    <section id="starter-kit" style={{ background: "#0a1020", padding: "100px clamp(20px,5vw,60px)", position: "relative", overflow: "hidden" }}>
+      <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)", width: 600, height: 600, borderRadius: "50%", background: "radial-gradient(circle,rgba(0,191,255,0.07) 0%,transparent 70%)", pointerEvents: "none" }} />
       <div style={{ maxWidth: 680, margin: "0 auto", textAlign: "center", position: "relative" }}>
         <FadeIn>
-          <div style={{ display: "inline-block", fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", color: "#00e5ff", background: "rgba(0,229,255,0.07)", border: "1px solid rgba(0,229,255,0.15)", borderRadius: 100, padding: "5px 14px", marginBottom: 20 }}>Start With Clarity</div>
+          <div style={{ display: "inline-block", fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", color: "#00bfff", background: "rgba(0,191,255,0.07)", border: "1px solid rgba(0,191,255,0.15)", borderRadius: 100, padding: "5px 14px", marginBottom: 20 }}>Start With Clarity</div>
         </FadeIn>
         <FadeIn delay={0.1}>
-          <div style={{ background: "linear-gradient(135deg,rgba(0,229,255,0.07),rgba(0,102,255,0.05))", border: "1px solid rgba(0,229,255,0.18)", borderRadius: 20, padding: "52px 48px" }}>
-            <h2 style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: "clamp(22px,3vw,34px)", color: "#fff", margin: "0 0 8px", letterSpacing: "-0.5px" }}>AI Business Audit + Roadmap</h2>
+          <div className="card-hover" style={{ background: "linear-gradient(135deg,rgba(0,191,255,0.07),rgba(168,85,247,0.05))", border: "1px solid rgba(0,191,255,0.18)", borderRadius: 20, padding: "52px 48px" }}>
+            <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(24px,3.3vw,37px)", color: "#fff", margin: "0 0 8px", letterSpacing: "-0.5px" }}>AI Business Growth Starter Kit</h2>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 16, margin: "28px 0" }}>
-              <span style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: "clamp(52px,8vw,80px)", color: "#fff", letterSpacing: "-3px" }}>$497</span>
+              <span style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(52px,8vw,80px)", color: "#fff", letterSpacing: "-3px" }}>$497</span>
             </div>
             <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", lineHeight: 1.75, margin: "0 0 12px" }}>
               A 90-minute deep-dive into your business. You'll leave with a prioritised automation roadmap and a clear implementation plan — no fluff, no upsell.
             </p>
-            <div style={{ display: "inline-block", background: "rgba(255,220,0,0.1)", border: "1px solid rgba(255,220,0,0.2)", borderRadius: 100, padding: "5px 16px", marginBottom: 36 }}>
-              <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 13, color: "#ffd700", fontWeight: 600 }}>Valued at $697 — Limited time only</span>
+            <div style={{ display: "inline-block", background: "rgba(236,72,153,0.1)", border: "1px solid rgba(168,85,247,0.3)", borderRadius: 100, padding: "5px 16px", marginBottom: 36 }}>
+              <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 13, color: "#ec4899", fontWeight: 600 }}>Valued at $697 — Limited time only</span>
             </div>
             <div>
-              <a href={CALENDLY} target="_blank" rel="noreferrer" style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 15, letterSpacing: "1px", color: "#000", background: "linear-gradient(90deg,#00e5ff,#0066ff)", padding: "17px 48px", borderRadius: 10, textDecoration: "none", textTransform: "uppercase", display: "inline-block", boxShadow: "0 0 40px rgba(0,229,255,0.3)", transition: "all 0.3s" }}
-                onMouseEnter={e => { e.currentTarget.style.boxShadow = "0 0 60px rgba(0,229,255,0.5)"; e.currentTarget.style.transform = "translateY(-2px)"; }}
-                onMouseLeave={e => { e.currentTarget.style.boxShadow = "0 0 40px rgba(0,229,255,0.3)"; e.currentTarget.style.transform = "translateY(0)"; }}
-              >Book a Call</a>
+              <a href="https://calendly.com/scale-aiaustralia/90-min-ai-audit-and-roadmap" target="_blank" rel="noreferrer" style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 15, letterSpacing: "1px", color: "#000", background: "linear-gradient(90deg,#ec4899,#a855f7)", padding: "17px 48px", borderRadius: 10, textDecoration: "none", textTransform: "uppercase", display: "inline-block", boxShadow: "0 0 40px rgba(0,191,255,0.3)", transition: "all 0.3s" }}
+                onMouseEnter={e => { e.currentTarget.style.boxShadow = "0 0 60px rgba(0,191,255,0.5)"; e.currentTarget.style.transform = "translateY(-2px)"; }}
+                onMouseLeave={e => { e.currentTarget.style.boxShadow = "0 0 40px rgba(0,191,255,0.3)"; e.currentTarget.style.transform = "translateY(0)"; }}
+              >GET STARTED TODAY</a>
             </div>
           </div>
         </FadeIn>
         <FadeIn delay={0.25}>
           <div style={{ marginTop: 56 }}>
-            <h3 style={{ fontFamily: "'Syne', sans-serif", fontWeight: 700, fontSize: "clamp(20px,2.5vw,30px)", color: "rgba(255,255,255,0.85)", marginBottom: 16, letterSpacing: "-0.5px" }}>
-              Don't spend the next 3–6 months figuring this out alone
+            <h3 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: "clamp(22px,2.75vw,33px)", color: "rgba(255,255,255,0.85)", marginBottom: 16, letterSpacing: "-0.5px" }}>
+              Don't spend the next 3–6 months figuring this out alone.
             </h3>
-            <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.45)", marginBottom: 28 }}>You don't need more information. You need a clear plan.</p>
-            <a href={CALENDLY} target="_blank" rel="noreferrer" style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: 14, color: "#00e5ff", border: "1px solid rgba(0,229,255,0.3)", padding: "12px 32px", borderRadius: 8, textDecoration: "none", display: "inline-block", transition: "all 0.3s" }}
-              onMouseEnter={e => { e.currentTarget.style.background = "rgba(0,229,255,0.08)"; }}
+            <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.45)", marginBottom: 28 }}>You don't need more information. You just need a clear plan.</p>
+            <a href={CALENDLY} target="_blank" rel="noreferrer" style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: 14, color: "#00bfff", border: "1px solid rgba(0,191,255,0.3)", padding: "12px 32px", borderRadius: 8, textDecoration: "none", display: "inline-block", transition: "all 0.3s" }}
+              onMouseEnter={e => { e.currentTarget.style.background = "rgba(0,191,255,0.08)"; }}
               onMouseLeave={e => { e.currentTarget.style.background = "transparent"; }}
             >Book a Call</a>
           </div>
@@ -494,10 +488,8 @@ function App() {
     <React.Fragment>
       <Nav />
       <Hero />
-      <Problem />
-      <Solution />
+      <ProblemSolution />
       <Services />
-      <Outcome />
       <WhyUs />
       <Pricing />
       <Footer />

@@ -95,9 +95,9 @@ function Hero() {
             <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 600, color: "#00bfff", letterSpacing: "1.5px", textTransform: "uppercase" }}>AI Strategy for Australian Businesses</span>
           </div>
 
-          <h1 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(40px,5.5vw,64px)", lineHeight: 1.05, color: "#fff", letterSpacing: "-1.5px", animation: "fadeUp 0.8s ease 0.1s both", margin: "0px 0px 28px", whiteSpace: "normal" }}>
-            <span style={{ whiteSpace: "nowrap" }}>AI Should Create More Capacity</span>{" "}
-            <span style={{ background: "linear-gradient(90deg,#ec4899,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", whiteSpace: "nowrap" }}>- Not More Chaos</span>
+          <h1 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(40px,5.5vw,64px)", lineHeight: 1.05, color: "#fff", letterSpacing: "-1.5px", animation: "fadeUp 0.8s ease 0.1s both", margin: "0px 0px 28px", whiteSpace: "normal", maxWidth: 720 }}>
+            Learn How To Automate Your Business{" "}
+            <span style={{ background: "linear-gradient(90deg,#ec4899,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", whiteSpace: "nowrap" }}>In 7 Days</span>
           </h1>
 
           <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: "clamp(16px,2vw,19px)", lineHeight: 1.7, color: "rgba(255,255,255,0.6)", maxWidth: 560, margin: "0 0 44px", animation: "fadeUp 0.8s ease 0.2s both" }}>We offer practical AI strategy for growing businesses on what to automate, what to ignore, and how to implement AI - without adding more overwhelm.
@@ -105,8 +105,7 @@ function Hero() {
           </p>
 
           <div style={{ display: "flex", gap: 16, flexWrap: "wrap", animation: "fadeUp 0.8s ease 0.3s both" }}>
-            <a href={CALENDLY} target="_blank" rel="noreferrer" style={{
-              fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 15, letterSpacing: "0.8px",
+            <a href={CALENDLY} target="_blank" rel="noreferrer" style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 15, letterSpacing: "0.8px",
               color: "#000", background: "linear-gradient(90deg,#ec4899,#a855f7)", padding: "16px 36px",
               borderRadius: 8, textDecoration: "none", textTransform: "uppercase", display: "inline-flex", alignItems: "center", gap: 10,
               boxShadow: "0 0 40px rgba(0,191,255,0.25)", transition: "box-shadow 0.3s, transform 0.2s"
@@ -114,7 +113,7 @@ function Hero() {
             onMouseEnter={(e) => {e.currentTarget.style.boxShadow = "0 0 60px rgba(0,191,255,0.4)";e.currentTarget.style.transform = "translateY(-2px)";}}
             onMouseLeave={(e) => {e.currentTarget.style.boxShadow = "0 0 40px rgba(0,191,255,0.25)";e.currentTarget.style.transform = "translateY(0)";}}>
               
-              Get Your AI Roadmap
+              Book A Free Discovery Call
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
             </a>
           </div>
@@ -143,7 +142,7 @@ function ProblemSolution() {
   "Uncover operational bottlenecks",
   "Identify high-impact automation opportunities",
   "Avoid unnecessary tools and complexity",
-  "Create a clear implementation plan that fits your business"];
+  "Build a practical roadmap aligned with your operations and goals"];
 
 
   return (
@@ -159,11 +158,11 @@ function ProblemSolution() {
             <div className="card-hover ps-card ps-problem" style={{ background: "linear-gradient(180deg,rgba(236,72,153,0.05),rgba(168,85,247,0.02))", border: "1px solid rgba(236,72,153,0.18)", borderRadius: 24, padding: "44px 40px", height: "100%", display: "flex", flexDirection: "column" }}>
               <div style={{ display: "inline-block", alignSelf: "flex-start", fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", color: "#ec4899", background: "rgba(236,72,153,0.08)", border: "1px solid rgba(236,72,153,0.25)", borderRadius: 100, padding: "5px 14px", marginBottom: 24 }}>The Problem</div>
 
-              <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(26px,2.9vw,36px)", color: "#fff", letterSpacing: "-0.8px", margin: "0 0 8px", lineHeight: 1.15 }}>
-                The problem isn't AI.
+              <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(26px,2.9vw,36px)", color: "#fff", letterSpacing: "-0.8px", margin: "0 0 8px", lineHeight: 1.15 }}>AI can feel overwhelming.
+
               </h2>
-              <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(26px,2.9vw,36px)", letterSpacing: "-0.8px", margin: "0 0 28px", lineHeight: 1.15, background: "linear-gradient(90deg,#ec4899,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                It's trying to implement it without a clear plan.
+              <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: 20, letterSpacing: "-0.8px", margin: "0 0 28px", lineHeight: 1.15, background: "linear-gradient(90deg,#ec4899,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Without a clear plan, most businesses end up adding more complexity instead of creating leverage.
+
               </h2>
 
               <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", margin: "0 0 24px", lineHeight: 1.6 }}>Most businesses are:</p>
@@ -180,9 +179,9 @@ function ProblemSolution() {
               </div>
 
               <div style={{ marginTop: "auto", paddingTop: 24, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
-                <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14, color: "rgba(255,255,255,0.5)", margin: "0 0 6px", fontWeight: 600 }}>The result?</p>
+                <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14, color: "rgba(255,255,255,0.5)", margin: "0 0 6px", fontWeight: 600 }}></p>
                 <p style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: 17, color: "rgba(255,255,255,0.85)", margin: 0, letterSpacing: "-0.2px", lineHeight: 1.4 }}>
-                  More complexity. More noise.<br /><span style={{ color: "#ec4899" }}>Less operational clarity.</span>
+                  <br /><span style={{ color: "#ec4899" }}>More noise. Less clarity. Less capacity.</span>
                 </p>
               </div>
             </div>
@@ -207,15 +206,17 @@ function ProblemSolution() {
             <div className="card-hover ps-card ps-solution" style={{ background: "linear-gradient(180deg,rgba(0,191,255,0.05),rgba(168,85,247,0.03))", border: "1px solid rgba(0,191,255,0.2)", borderRadius: 24, padding: "44px 40px", height: "100%", display: "flex", flexDirection: "column" }}>
               <div style={{ display: "inline-block", alignSelf: "flex-start", fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", color: "#00bfff", background: "rgba(0,191,255,0.08)", border: "1px solid rgba(0,191,255,0.25)", borderRadius: 100, padding: "5px 14px", marginBottom: 24 }}>The Solution</div>
 
-              <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(26px,2.9vw,36px)", color: "#fff", letterSpacing: "-0.8px", margin: "0 0 28px", lineHeight: 1.15 }}>
-                We help you identify <span style={{ background: "linear-gradient(90deg,#00bfff,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>what's actually worth automating.</span>
+              <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(26px,2.9vw,36px)", color: "#fff", letterSpacing: "-0.8px", margin: "0 0 8px", lineHeight: 1.15 }}>
+                Practical AI solutions for real business operations.
+              </h2>
+              <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: 20, letterSpacing: "-0.8px", margin: "0 0 28px", lineHeight: 1.15, background: "linear-gradient(90deg,#00bfff,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+                Discover what's actually worth automating.
               </h2>
 
-              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", margin: "0 0 24px", lineHeight: 1.6 }}>Through a practical AI business audit and roadmap, we help you:</p>
+              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", margin: "0 0 24px", lineHeight: 1.6 }}>Through our strategic process we help you:</p>
 
               <div style={{ display: "flex", flexDirection: "column", gap: 14, marginBottom: 32 }}>
-                {solutions.map((s, i) =>
-                <div key={i} style={{ display: "flex", gap: 14, alignItems: "flex-start" }}>
+                {solutions.map((s, i) => <div key={i} style={{ display: "flex", gap: 14, alignItems: "flex-start" }}>
                     <div style={{ width: 22, height: 22, borderRadius: "50%", background: "rgba(0,191,255,0.12)", border: "1px solid rgba(0,191,255,0.4)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 2 }}>
                       <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#00bfff" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
                     </div>
@@ -226,7 +227,7 @@ function ProblemSolution() {
 
               <div style={{ marginTop: "auto", paddingTop: 24, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
                 <p style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: 17, color: "rgba(255,255,255,0.85)", margin: 0, letterSpacing: "-0.2px", lineHeight: 1.4 }}>
-                  No overwhelm.<br /><span style={{ background: "linear-gradient(90deg,#00bfff,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Just practical systems that create more capacity.</span>
+                  <br /><span style={{ background: "linear-gradient(90deg,#00bfff,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Just practical systems that create more capacity.</span>
                 </p>
               </div>
             </div>
@@ -337,10 +338,10 @@ function _LegacySolution() {
 function Services() {
   const includes = [
   "A deep-dive AI business audit to uncover time, cost and conversion leaks",
-  "A clear, prioritised AI implementation roadmap tailored to your goals",
-  "A vetted local AI developer matched to your niche, tech stack and working style",
-  "Greater clarity around tools, systems, workflows, and implementation options",
-  "Ongoing strategic guidance available during implementation"];
+  "A clear roadmap designed around your workflows and goals",
+  "Practical AI tools aligned with your business needs and workflows",
+  "A prioritised action plan with practical next steps",
+  "Access to ongoing support and implementation pathways"];
 
   return (
     <section id="services" style={{ background: "#0d1424", padding: "100px clamp(20px,5vw,60px)" }}>
@@ -352,13 +353,11 @@ function Services() {
           <div>
             <FadeIn delay={0.1}>
               <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(31px,3.85vw,48px)", color: "#fff", letterSpacing: "-1px", margin: "0 0 20px", lineHeight: 1.15 }}>
-                AI Business Audit +<br /><span style={{ color: "#00bfff" }}>Roadmap</span>
+                AI Business Growth<br /><span style={{ color: "#00bfff" }}>Starter Kit</span>
               </h2>
             </FadeIn>
             <FadeIn delay={0.15}>
-              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.5)", lineHeight: 1.75, marginBottom: 28 }}>We help businesses identify where AI can genuinely reduce operational friction, save time, and create capacity — without adding unnecessary complexity.
-
-              </p>
+              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.5)", lineHeight: 1.75, marginBottom: 28 }}>We help businesses identify where AI can genuinely reduce operational friction, save time, and create capacity — without adding unnecessary complexity.</p>
             </FadeIn>
             <FadeIn delay={0.2}>
               <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14, fontWeight: 600, color: "rgba(255,255,255,0.4)", textTransform: "uppercase", letterSpacing: "1.5px", marginBottom: 20 }}>WHAT’S INCLUDED:</p>
@@ -376,23 +375,26 @@ function Services() {
           </div>
           <FadeIn delay={0.3}>
             <div className="card-hover" style={{ background: "linear-gradient(135deg,rgba(0,191,255,0.06),rgba(168,85,247,0.04))", border: "1px solid rgba(0,191,255,0.12)", borderRadius: 20, padding: "44px 40px" }}>
-              <div style={{ marginBottom: 20 }} dangerouslySetInnerHTML={{ __html: `<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#00bfff" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M3 13l3-3 3 3 4-4 4 4 4-4"/><path d="M3 13v3l5 4 4-3 4 3 5-4v-3"/></svg>` }} />
-              <h3 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: 22, color: "#fff", margin: "0 0 16px" }}>Implementation Support</h3>
-              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", lineHeight: 1.75, margin: "0 0 28px" }}>Once your roadmap is complete, we can connect you with trusted AI developers and implementation specialists from our vetted network based on your business needs, technical requirements, and budget.
-
-
-This gives you a clear path forward without having to navigate the AI space alone or waste time searching for the right people yourself.</p>
+              <div style={{ marginBottom: 20 }} dangerouslySetInnerHTML={{ __html: `<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#00bfff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13l3-3 3 3 4-4 4 4 4-4"/><path d="M3 13v3l5 4 4-3 4 3 5-4v-3"/></svg>` }} />
+              <h3 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: 22, color: "#fff", margin: "0 0 16px" }}>Implementation Pathways</h3>
+              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", lineHeight: 1.75, margin: "0 0 28px" }}>Once your roadmap is complete, we help you identify the most practical next steps based on your business goals, systems, budget, and level of support required. For some businesses, that may mean simple internal improvements using existing tools. For others, it may involve workshops, guided support, or connecting with trusted specialists from our vetted network. Our role is to help you move forward with clarity — without unnecessary complexity, overwhelm, or wasted spend.</p>
               <div style={{ borderTop: "1px solid rgba(255,255,255,0.07)", paddingTop: 24 }}>
-                <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 13, color: "rgba(255,255,255,0.35)", margin: 0, lineHeight: 1.7 }}>From diagnosis and roadmap → vetted developer matching
-
-                </p>
+                <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 13, color: "rgba(255,255,255,0.35)", margin: 0, lineHeight: 1.7 }}>From operational clarity → practical implementation pathways</p>
               </div>
             </div>
           </FadeIn>
         </div>
+        <FadeIn delay={0.4}>
+          <div style={{ marginTop: 56, position: "relative", padding: "34px 40px", background: "linear-gradient(135deg,rgba(0,191,255,0.08),rgba(168,85,247,0.06))", border: "1px solid rgba(0,191,255,0.25)", borderRadius: 18, overflow: "hidden" }}>
+            <div style={{ position: "absolute", inset: 0, background: "radial-gradient(circle at 0% 0%, rgba(0,191,255,0.18), transparent 55%)", pointerEvents: "none" }} />
+            <p style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 600, fontSize: "clamp(17px,1.8vw,22px)", color: "#fff", lineHeight: 1.5, margin: 0, letterSpacing: "-0.3px", position: "relative" }}>
+              No unrealistic promises or unnecessary complexity. <span style={{ background: "linear-gradient(90deg,#00bfff,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Just practical guidance designed to help your business operate more smoothly and sustainably.</span>
+            </p>
+          </div>
+        </FadeIn>
         <FadeIn delay={0.5}>
           <div style={{ marginTop: 64, textAlign: "center" }}>
-            <a href={CALENDLY} target="_blank" rel="noreferrer" style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 14, letterSpacing: "1px", color: "#000", background: "linear-gradient(90deg,#ec4899,#a855f7)", padding: "15px 40px", borderRadius: 8, textDecoration: "none", textTransform: "uppercase", display: "inline-block", boxShadow: "0 0 30px rgba(0,191,255,0.2)", transition: "all 0.3s" }}
+            <a href="#starter-kit" onClick={(e) => { e.preventDefault(); const t = document.getElementById('starter-kit'); if (t) window.scrollTo({ top: t.getBoundingClientRect().top + window.pageYOffset - 20, behavior: 'smooth' }); }} style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 14, letterSpacing: "1px", color: "#000", background: "linear-gradient(90deg,#ec4899,#a855f7)", padding: "15px 40px", borderRadius: 8, textDecoration: "none", textTransform: "uppercase", display: "inline-block", boxShadow: "0 0 30px rgba(0,191,255,0.2)", transition: "all 0.3s", cursor: "pointer" }}
             onMouseEnter={(e) => {e.currentTarget.style.boxShadow = "0 0 50px rgba(0,191,255,0.4)";e.currentTarget.style.transform = "translateY(-2px)";}}
             onMouseLeave={(e) => {e.currentTarget.style.boxShadow = "0 0 30px rgba(0,191,255,0.2)";e.currentTarget.style.transform = "translateY(0)";}}>
               Get Started</a>
@@ -400,12 +402,7 @@ This gives you a clear path forward without having to navigate the AI space alon
         </FadeIn>
       </div>
       <style>{`@media(max-width:768px){.services-grid{grid-template-columns:1fr!important}}`}</style>
-    </section>);
-}
-
-function HowItWorks() {
-  const steps = [
-  {
+    </section>);}function HowItWorks() {const steps = [{
     n: "01",
     title: "Business Audit",
     desc: "We map your workflows, bottlenecks, and operational friction points.",
@@ -419,8 +416,8 @@ function HowItWorks() {
   },
   {
     n: "03",
-    title: "Implementation Support",
-    desc: "Implement internally or work with a vetted developer from our trusted network.",
+    title: "Implementation Pathways",
+    desc: "Move forward with practical support pathways tailored to your business, goals, systems, and level of complexity.",
     icon: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M7.8 7.8 11 16"/><path d="M16.2 7.8 13 16"/><path d="M8 6h8"/></svg>`
   }];
 
@@ -440,8 +437,8 @@ function HowItWorks() {
             </h2>
           </FadeIn>
           <FadeIn delay={0.15}>
-            <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 16, color: "rgba(255,255,255,0.55)", lineHeight: 1.7, margin: "0 auto", maxWidth: 580 }}>
-              A simple, three-step process designed to take you from scattered AI ideas to a focused implementation plan.
+            <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 16, color: "rgba(255,255,255,0.55)", lineHeight: 1.7, margin: "0 auto", maxWidth: 580 }}>A simple, three-step process designed to take you from scattered AI ideas focused implementation pathways.
+
             </p>
           </FadeIn>
         </div>
@@ -483,103 +480,12 @@ function HowItWorks() {
 
 }
 
-function Outcome() {
-  const roadmap = [
-  "A clear automation roadmap you can act on immediately",
-  "Identified time and cost leaks across your operations",
-  "The right tools for your situation (not just whatever's trending)",
-  "A step-by-step plan for implementation"];
-
-  const partner = [
-  "Match you with the most appropriate local AI developer based on niche experience, technical skill set and communication style"];
-
-  return (
-    <section style={{ background: "#0a1020", padding: "100px clamp(20px,5vw,60px)" }}>
-      <div style={{ maxWidth: 1080, margin: "0 auto" }}>
-        <FadeIn>
-          <div style={{ display: "inline-block", fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", color: "#00bfff", background: "rgba(0,191,255,0.07)", border: "1px solid rgba(0,191,255,0.15)", borderRadius: 100, padding: "5px 14px", marginBottom: 20 }}>The Outcome</div>
-        </FadeIn>
-        <FadeIn delay={0.1}>
-          <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(29px,3.85vw,48px)", letterSpacing: "-1px", margin: "0 0 40px", lineHeight: 1.15, color: "rgb(234, 74, 163)" }}>
-            <span style={{ color: "rgb(255, 255, 255)" }}>Walk away knowing</span> <span style={{ color: "#00bfff" }}>what's worth automating<br /><span style={{ color: "rgb(255, 255, 255)" }}>and how to do it.</span></span>
-          </h2>
-        </FadeIn>
-        <div style={{ marginBottom: 56 }}>
-          <FadeIn delay={0.15}>
-            <div className="card-hover" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: 16, padding: "40px 44px" }}>
-              <p style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, letterSpacing: "1.5px", textTransform: "uppercase", color: "#00bfff", marginBottom: 24, fontSize: "18px" }}>AFTER YOUR AUDIT YOU'LL LEAVE WITH:</p>
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "16px 32px", padding: "2px 0px 0px" }} className="audit-bullets">
-              {roadmap.map((item, i) =>
-                <div key={i} style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
-                  <div style={{ width: 20, height: 20, borderRadius: "50%", background: "rgba(0,191,255,0.15)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 2 }}>
-                    <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#00bfff" strokeWidth="3"><polyline points="20 6 9 17 4 12" /></svg>
-                  </div>
-                  <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14, color: "rgba(255,255,255,0.65)", lineHeight: 1.6, margin: 0 }}>{item}</p>
-                </div>
-                )}
-              </div>
-              <div style={{ marginTop: 24, padding: "16px 20px", background: "rgba(0,191,255,0.05)", borderRadius: 10, borderLeft: "3px solid #00bfff", margin: "54px 0px 0px" }}>
-                <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14, color: "rgba(255,255,255,0.7)", lineHeight: 1.6, margin: 0 }}>No unrealistic promises or unnecessary complexity. Just practical guidance designed to help your business operate more smoothly and sustainably.</p>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-        <div className="two-col-grid impl-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 32, alignItems: "center", position: "relative" }}>
-          <FadeIn delay={0.2}>
-            <div style={{ display: "flex", flexDirection: "column", position: "relative", zIndex: 2 }}>
-              <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, color: "#fff", letterSpacing: "-1px", margin: "0 0 20px", lineHeight: 1.15, fontSize: "clamp(31px,3.85vw,48px)" }}>
-                Implementation With Our<br /><span style={{ background: "linear-gradient(90deg,#ec4899,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Developer Network</span>
-              </h2>
-              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.5)", lineHeight: 1.75, margin: 0 }}>If you'd like help bringing the roadmap to life, we'll connect you with a vetted developer from our trusted network — matched to your business and ready to build.</p>
-            </div>
-          </FadeIn>
-          <FadeIn delay={0.25}>
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <svg width="100%" height="auto" viewBox="0 0 420 280" fill="none" style={{ maxWidth: 491, display: "block" }} preserveAspectRatio="xMidYMid meet">
-                <defs>
-                  <radialGradient id="nodeCore" cx="50%" cy="50%" r="50%">
-                    <stop offset="0%" stopColor="#ec4899" />
-                    <stop offset="100%" stopColor="#a855f7" />
-                  </radialGradient>
-                  <radialGradient id="nodeDev" cx="50%" cy="50%" r="50%">
-                    <stop offset="0%" stopColor="#00bfff" />
-                    <stop offset="100%" stopColor="#0066ff" />
-                  </radialGradient>
-                </defs>
-                <g stroke="rgba(0,191,255,0.35)" strokeWidth="1.2" strokeDasharray="3 4">
-                  <line x1="210" y1="140" x2="70" y2="50" />
-                  <line x1="210" y1="140" x2="350" y2="50" />
-                  <line x1="210" y1="140" x2="40" y2="160" />
-                  <line x1="210" y1="140" x2="380" y2="160" />
-                  <line x1="210" y1="140" x2="110" y2="240" />
-                  <line x1="210" y1="140" x2="310" y2="240" />
-                </g>
-                {[[70, 50], [350, 50], [40, 160], [380, 160], [110, 240], [310, 240]].map(([x, y], i) =>
-                <g key={i}>
-                  <circle cx={x} cy={y} r="22" fill="rgba(0,191,255,0.08)" stroke="rgba(0,191,255,0.4)" strokeWidth="1" />
-                  <circle cx={x} cy={y} r="14" fill="url(#nodeDev)" opacity="0.9" />
-                  <circle cx={x} cy={y - 3} r="4" fill="#fff" />
-                  <path d={`M${x - 7} ${y + 7} Q${x} ${y + 1} ${x + 7} ${y + 7}`} stroke="#fff" strokeWidth="1.8" fill="none" strokeLinecap="round" />
-                </g>
-                )}
-                <circle cx="210" cy="140" r="40" fill="rgba(236,72,153,0.1)" stroke="rgba(236,72,153,0.4)" strokeWidth="1" />
-                <circle cx="210" cy="140" r="28" fill="url(#nodeCore)" />
-                <text x="210" y="146" textAnchor="middle" fontFamily="Manrope, sans-serif" fontSize="14" fontWeight="800" fill="#fff" letterSpacing="0.5">AAA</text>
-              </svg>
-            </div>
-          </FadeIn>
-        </div>
-      </div>
-      <style>{`@media(max-width:768px){.two-col-grid{grid-template-columns:1fr!important}}`}</style>
-    </section>);
-}
-
 function TestimonialsCarousel() {
   const testimonials = [
-    { quote: "AAA is knowledgeable, up to date with the latest tools, and genuinely focused on delivering real value. Highly recommend!", name: "Manjula", company: "Limes Digital" },
-    { quote: "Best investment we've made this year. The AAA team took the time to understand my business and built something that actually works.", name: "Jenelle", company: "Encompassed Energy" },
-    { quote: "AAA has such a strong understanding of AI and how to actually apply it in business. Everything feels clear, practical and easy to implement! Highly recommend! Thankyou!", name: "Megan", company: "The Hair Academy by Meagan Ellise" },
-    { quote: "AAA has really helped me with the fundamentals of AI to help me bring my business to the next step. I'm looking forward to continuing to learn more as we go.", name: "Sam", company: "Sip With Sam" }];
+  { quote: "AAA is knowledgeable, up to date with the latest tools, and genuinely focused on delivering real value. Highly recommend!", name: "Manjula", company: "Limes Digital" },
+  { quote: "Best investment we've made this year. The AAA team took the time to understand my business and built something that actually works.", name: "Jenelle", company: "Encompassed Energy" },
+  { quote: "AAA has such a strong understanding of AI and how to actually apply it in business. Everything feels clear, practical and easy to implement! Highly recommend! Thankyou!", name: "Megan", company: "The Hair Academy by Meagan Ellise" },
+  { quote: "AAA has really helped me with the fundamentals of AI to help me bring my business to the next step. I'm looking forward to continuing to learn more as we go.", name: "Sam", company: "Sip With Sam" }];
   const [idx, setIdx] = useState(testimonials.length - 1);
   const containerRef = useRef(null);
   const [cardW, setCardW] = useState(420);
@@ -596,7 +502,7 @@ function TestimonialsCarousel() {
     measure();
     window.addEventListener("resize", measure);
     const id = setInterval(() => setIdx((i) => (i + 1) % testimonials.length), 8000);
-    return () => { clearInterval(id); window.removeEventListener("resize", measure); };
+    return () => {clearInterval(id);window.removeEventListener("resize", measure);};
   }, []);
   const step = cardW + 20;
   const slides = testimonials.concat(testimonials);
@@ -619,8 +525,8 @@ function TestimonialsCarousel() {
       </div>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 18, marginTop: 32 }}>
         <button onClick={() => go(-1)} aria-label="Previous" style={{ width: 42, height: 42, borderRadius: "50%", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.12)", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", transition: "all 0.25s", padding: 0 }}
-          onMouseEnter={(e) => { e.currentTarget.style.borderColor = "#ec4899"; e.currentTarget.style.background = "rgba(236,72,153,0.08)"; }}
-          onMouseLeave={(e) => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.12)"; e.currentTarget.style.background = "rgba(255,255,255,0.04)"; }}>
+        onMouseEnter={(e) => {e.currentTarget.style.borderColor = "#ec4899";e.currentTarget.style.background = "rgba(236,72,153,0.08)";}}
+        onMouseLeave={(e) => {e.currentTarget.style.borderColor = "rgba(255,255,255,0.12)";e.currentTarget.style.background = "rgba(255,255,255,0.04)";}}>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="15 18 9 12 15 6" /></svg>
         </button>
         <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
@@ -629,8 +535,8 @@ function TestimonialsCarousel() {
           )}
         </div>
         <button onClick={() => go(1)} aria-label="Next" style={{ width: 42, height: 42, borderRadius: "50%", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.12)", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", transition: "all 0.25s", padding: 0 }}
-          onMouseEnter={(e) => { e.currentTarget.style.borderColor = "#ec4899"; e.currentTarget.style.background = "rgba(236,72,153,0.08)"; }}
-          onMouseLeave={(e) => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.12)"; e.currentTarget.style.background = "rgba(255,255,255,0.04)"; }}>
+        onMouseEnter={(e) => {e.currentTarget.style.borderColor = "#ec4899";e.currentTarget.style.background = "rgba(236,72,153,0.08)";}}
+        onMouseLeave={(e) => {e.currentTarget.style.borderColor = "rgba(255,255,255,0.12)";e.currentTarget.style.background = "rgba(255,255,255,0.04)";}}>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="9 18 15 12 9 6" /></svg>
         </button>
       </div>
@@ -639,9 +545,9 @@ function TestimonialsCarousel() {
 
 function About() {
   const stats = [
-    { num: "$40M+", label: "Client revenue scaled" },
-    { num: "$25M+", label: "Personal sales contribution" },
-    { num: "10+ yrs", label: "Business growth strategy" }];
+  { num: "$40M+", label: "Client revenue scaled" },
+  { num: "$25M+", label: "Personal sales contribution" },
+  { num: "10+ yrs", label: "Business growth strategy" }];
   return (
     <section id="about" style={{ background: "#0a1020", padding: "120px clamp(20px,5vw,60px)", position: "relative", overflow: "hidden" }}>
       <div style={{ position: "absolute", top: "10%", right: "-5%", width: 480, height: 480, borderRadius: "50%", background: "radial-gradient(circle,rgba(236,72,153,0.10) 0%,transparent 70%)", filter: "blur(40px)", pointerEvents: "none" }} />
@@ -707,7 +613,7 @@ function WhyUs() {
         </FadeIn>
         <FadeIn delay={0.1}>
           <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(29px,3.85vw,48px)", color: "#fff", letterSpacing: "-1px", margin: "0 0 20px", lineHeight: 1.15, maxWidth: 680 }}>
-            You don't need more tools.<br />You need the <span style={{ color: "#00bfff" }}>right plan</span> — and the right team.
+            AI Strategy Built Around Real Business Operations<br /><span style={{ color: "#00bfff" }}></span>
           </h2>
         </FadeIn>
         <div className="why-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24, marginTop: 48 }}>
@@ -715,23 +621,31 @@ function WhyUs() {
             <div className="card-hover" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: 16, padding: "32px 28px" }}>
               <div style={{ marginBottom: 20 }} dangerouslySetInnerHTML={{ __html: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#00bfff" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M2 14l8-3 4 9-3 1z"/><path d="M14 11l6-2 2 4-6 2"/><line x1="12" y1="19" x2="8" y2="22"/><line x1="12" y1="19" x2="14" y2="22"/></svg>` }} />
               <h3 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: 20, color: "#fff", margin: "0 0 14px" }}>Holistic Business View</h3>
-              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", lineHeight: 1.75, margin: 0 }}>We don't just look at AI. We look at your entire business — sales, operations, and delivery — so automation actually works in the real world, not just on a slide deck.</p>
+              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", lineHeight: 1.75, margin: 0 }}>Most AI providers understand tools.
+
+
+
+
+We focus on understanding your business first — how it operates, where friction exists, what’s slowing growth, and where AI can create genuine operational leverage.</p>
             </div>
           </FadeIn>
           <FadeIn delay={0.2}>
             <div className="card-hover" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: 16, padding: "32px 28px" }}>
               <div style={{ marginBottom: 20 }} dangerouslySetInnerHTML={{ __html: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#00bfff" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><rect x="4" y="4" width="16" height="17"/><line x1="9" y1="9" x2="9" y2="9.01"/><line x1="15" y1="9" x2="15" y2="9.01"/><line x1="9" y1="13" x2="9" y2="13.01"/><line x1="15" y1="13" x2="15" y2="13.01"/><path d="M10 21v-4h4v4"/></svg>` }} />
-              <h3 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: 20, color: "#fff", margin: "0 0 14px" }}>Industry Experience</h3>
-              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", lineHeight: 1.75, margin: 0 }}>We've worked across service-based industries including NDIS and healthcare, construction and real estate. We know how to create efficiency without breaking what's already working.</p>
+              <h3 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: 20, color: "#fff", margin: "0 0 14px" }}>Local Experts</h3>
+              <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.55)", lineHeight: 1.75, margin: 0 }}>We work alongside a trusted network of Australian AI specialists, developers, and operational experts across a range of industries and business systems.
+
+
+As businesses grow and their needs evolve, we help connect them with the right expertise, practical support, and trusted implementation partners.</p>
             </div>
           </FadeIn>
         </div>
         <FadeIn delay={0.3}>
           <div style={{ margin: "48px 0", textAlign: "center" }}>
             <p style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: "clamp(18px,2.5vw,26px)", color: "rgba(255,255,255,0.85)", lineHeight: 1.5, margin: 0 }}>
-              Most businesses don't fail because they ignore AI.<br />
-              <span style={{ color: "#fff" }}>They fail because they implement the wrong things.</span><br />
-              <span style={{ background: "linear-gradient(90deg,#ec4899,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>We make sure you don't.</span>
+              If you don't use AI your customers will choose competitors who do.<br />
+              <span style={{ color: "#fff" }}>We help you become the business they stay loyal to.</span><br />
+              <span style={{ background: "linear-gradient(90deg,#ec4899,#a855f7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}></span>
             </p>
           </div>
         </FadeIn>
@@ -741,13 +655,8 @@ function WhyUs() {
         </div>
       </div>
       <style>{`@media(max-width:768px){.why-grid{grid-template-columns:1fr!important}}`}</style>
-    </section>);
-
-}
-
-function Pricing() {
-  return (
-    <section style={{ background: "#0a1020", padding: "100px clamp(20px,5vw,60px)", position: "relative", overflow: "hidden" }}>
+    </section>);}function Pricing() {return (
+    <section id="starter-kit" style={{ background: "#0a1020", padding: "100px clamp(20px,5vw,60px)", position: "relative", overflow: "hidden" }}>
       <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)", width: 600, height: 600, borderRadius: "50%", background: "radial-gradient(circle,rgba(0,191,255,0.07) 0%,transparent 70%)", pointerEvents: "none" }} />
       <div style={{ maxWidth: 680, margin: "0 auto", textAlign: "center", position: "relative" }}>
         <FadeIn>
@@ -755,7 +664,7 @@ function Pricing() {
         </FadeIn>
         <FadeIn delay={0.1}>
           <div className="card-hover" style={{ background: "linear-gradient(135deg,rgba(0,191,255,0.07),rgba(168,85,247,0.05))", border: "1px solid rgba(0,191,255,0.18)", borderRadius: 20, padding: "52px 48px" }}>
-            <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(24px,3.3vw,37px)", color: "#fff", margin: "0 0 8px", letterSpacing: "-0.5px" }}>AI Business Audit + Roadmap</h2>
+            <h2 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(24px,3.3vw,37px)", color: "#fff", margin: "0 0 8px", letterSpacing: "-0.5px" }}>AI Business Growth Starter Kit</h2>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 16, margin: "28px 0" }}>
               <span style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: "clamp(52px,8vw,80px)", color: "#fff", letterSpacing: "-3px" }}>$497</span>
             </div>
@@ -766,10 +675,10 @@ function Pricing() {
               <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 13, color: "#ec4899", fontWeight: 600 }}>Valued at $697 — Limited time only</span>
             </div>
             <div>
-              <a href={CALENDLY} target="_blank" rel="noreferrer" style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 15, letterSpacing: "1px", color: "#000", background: "linear-gradient(90deg,#ec4899,#a855f7)", padding: "17px 48px", borderRadius: 10, textDecoration: "none", textTransform: "uppercase", display: "inline-block", boxShadow: "0 0 40px rgba(0,191,255,0.3)", transition: "all 0.3s" }}
+              <a href="https://calendly.com/scale-aiaustralia/90-min-ai-audit-and-roadmap" target="_blank" rel="noreferrer" style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 15, letterSpacing: "1px", color: "#000", background: "linear-gradient(90deg,#ec4899,#a855f7)", padding: "17px 48px", borderRadius: 10, textDecoration: "none", textTransform: "uppercase", display: "inline-block", boxShadow: "0 0 40px rgba(0,191,255,0.3)", transition: "all 0.3s" }}
               onMouseEnter={(e) => {e.currentTarget.style.boxShadow = "0 0 60px rgba(0,191,255,0.5)";e.currentTarget.style.transform = "translateY(-2px)";}}
-              onMouseLeave={(e) => {e.currentTarget.style.boxShadow = "0 0 40px rgba(0,191,255,0.3)";e.currentTarget.style.transform = "translateY(0)";}}>
-                Get Your AI Roadmap</a>
+              onMouseLeave={(e) => {e.currentTarget.style.boxShadow = "0 0 40px rgba(0,191,255,0.3)";e.currentTarget.style.transform = "translateY(0)";}}>GET STARTED TODAY
+              </a>
             </div>
           </div>
         </FadeIn>
@@ -810,17 +719,18 @@ function FAQItem({ q, a, defaultOpen }) {
 
 function FAQ() {
   const faqs = [
-  { q: "Is this actually useful for small businesses?", a: "Yes — especially for businesses already experiencing operational bottlenecks, repetitive admin, communication overload, or growing complexity.\n\nMost businesses don't need dozens of AI tools. They need clarity around where automation can genuinely save time, reduce friction, and support the way their business already works." },
-  { q: "What happens during the AI Business Audit?", a: "We take a detailed look at your workflows, operations, communication systems, and day-to-day processes to identify where AI and automation could create the biggest impact.\n\nFrom there, we create a prioritised roadmap tailored to your business, goals, and current systems." },
+  { q: "What is the AI Business Growth Starter Kit?", a: "The AI Business Growth Starter Kit is a strategic business audit and AI roadmap designed to help founder-led businesses identify where AI can genuinely reduce operational friction, improve efficiency, and create more capacity.\n\nRather than overwhelming you with tools or trends, we focus on practical opportunities aligned with how your business actually operates." },
+  { q: "Is this just another AI consultation?", a: "No.\n\nThis process is designed to provide practical clarity, prioritised next steps, and tailored recommendations specific to your business, systems, workflows, and goals.\n\nThe focus is not on adding more technology — it's on helping your business operate more smoothly and sustainably." },
+  { q: "What happens during the audit?", a: "We take a detailed look at your operations, workflows, communication systems, bottlenecks, repetitive tasks, and business processes to identify where AI and automation could create the biggest impact.\n\nFrom there, we develop a prioritised roadmap with practical recommendations and support pathways tailored to your business." },
   { q: "How long does it take to receive the roadmap?", a: "Most roadmap documents are delivered within 7 business days following your audit session." },
-  { q: "Will I need a developer?", a: "Not always.\n\nSome businesses can implement simple improvements internally using existing tools and workflows. More advanced automations or custom integrations may require technical support.\n\nIf needed, we can connect you with trusted developers from our vetted network based on your business requirements and budget." },
-  { q: "Can I implement the roadmap myself?", a: "Absolutely.\n\nThe roadmap is designed to give you clear, practical direction whether you choose to implement internally, work with your own team, learn through workshops, or engage external support." },
-  { q: "How much does implementation usually cost?", a: "Implementation costs vary depending on the complexity of your business, systems, and goals.\n\nSome businesses may only require simple workflow improvements using existing tools, while others may choose to invest in more advanced custom automations.\n\nOur role is to help you understand what's worth doing first — before you spend unnecessary money on tools or development." },
-  { q: "Do I need technical knowledge or AI experience?", a: "No.\n\nWe work with many non-technical business owners who simply want practical guidance without the overwhelm, jargon, or complexity that often surrounds AI." },
-  { q: "What types of businesses do you work with?", a: "We primarily work with founder-led and service-based businesses looking to improve operational efficiency, reduce manual workload, and create more sustainable systems for growth." },
-  { q: "What if my business changes after the roadmap is created?", a: "That's completely normal.\n\nThe roadmap is designed to provide strategic direction and prioritised next steps — not lock your business into rigid systems. AI implementation should evolve alongside your business over time." },
-  { q: "Are there ongoing software or subscription costs?", a: "Potentially, depending on the tools and systems recommended.\n\nPart of our process is helping you avoid unnecessary subscriptions and identify the most practical, cost-effective solutions for your business stage and goals." },
-  { q: "Do you build the automations yourselves?", a: "Our primary focus is strategy, operational clarity, and implementation guidance.\n\nWhere technical implementation is required, we can connect you with trusted developers and specialists from our vetted network." }];
+  { q: "Will I need a developer?", a: "Not always.\n\nSome businesses can implement simple improvements internally using existing tools and workflows. Others may benefit from workshops, guided support, or more advanced technical assistance depending on the complexity of their systems and goals.\n\nIf needed, we can connect you with trusted specialists and developers from our vetted network." },
+  { q: "Can I implement the recommendations myself?", a: "Absolutely.\n\nMany businesses choose to implement improvements internally, especially in the early stages. Our role is to help you understand what's worth prioritising and provide practical guidance on the best path forward for your business." },
+  { q: "What types of businesses do you work with?", a: "We primarily work with founder-led and service-based businesses looking to improve operational efficiency, reduce manual workload, and create more sustainable systems for growth.\n\nThis includes industries such as healthcare, NDIS, construction, real estate, education, consulting, and other service-based businesses." },
+  { q: "What happens after the roadmap is complete?", a: "Once your roadmap is complete, you'll have a clearer understanding of your highest-priority opportunities and practical next steps.\n\nFrom there, businesses may choose to:\n• implement internally,\n• access workshops or guided support,\n• work with trusted specialists from our network,\n• or continue refining systems over time as the business evolves." },
+  { q: "Do I need technical knowledge or AI experience?", a: "No.\n\nWe work with many non-technical business owners who simply want practical guidance without the overwhelm, jargon, or unnecessary complexity that often surrounds AI." },
+  { q: "How much does implementation usually cost?", a: "That depends on the size and complexity of your business, systems, and goals.\n\nSome businesses may only require small workflow improvements using existing tools, while others may invest in more advanced systems or specialist support over time.\n\nOur role is to help you understand what's genuinely worth investing in before unnecessary money is spent on tools or development." },
+  { q: "Are there ongoing software or subscription costs?", a: "Potentially, depending on the tools and systems recommended.\n\nPart of our process is helping businesses avoid unnecessary subscriptions and identify practical, cost-effective solutions that fit their stage of growth and operational needs." },
+  { q: "Do you personally build all automations and systems?", a: "Our primary focus is business strategy, operational clarity, AI guidance, and practical implementation pathways.\n\nWhere specialised technical support is required, we can connect businesses with trusted developers and specialists from our vetted network." }];
 
   return (
     <section id="faq" style={{ background: "#0d1424", padding: "100px clamp(20px,5vw,60px)", position: "relative", overflow: "hidden" }}>
@@ -905,22 +815,22 @@ function WorkshopPopup() {
   }, []);
   useEffect(() => {
     if (!open) return;
-    const onKey = (e) => { if (e.key === "Escape") setOpen(false); };
+    const onKey = (e) => {if (e.key === "Escape") setOpen(false);};
     window.addEventListener("keydown", onKey);
     document.body.style.overflow = "hidden";
-    return () => { window.removeEventListener("keydown", onKey); document.body.style.overflow = ""; };
+    return () => {window.removeEventListener("keydown", onKey);document.body.style.overflow = "";};
   }, [open]);
   if (!open) return null;
   const checks = [
-    { color: "#00bfff", lead: "Free guide:", body: "The Australian Business Owner's AI Starter Checklist" },
-    { color: "#a855f7", lead: "", body: "A live walkthrough of the 5 highest-impact automations for service businesses" },
-    { color: "#ec4899", lead: "", body: "Your questions answered in real time" }];
+  { color: "#00bfff", lead: "Free guide:", body: "The Australian Business Owner's AI Starter Checklist" },
+  { color: "#a855f7", lead: "", body: "A live walkthrough of the 5 highest-impact automations for service businesses" },
+  { color: "#ec4899", lead: "", body: "Your questions answered in real time" }];
   return (
     <div role="dialog" aria-modal="true" aria-label="Free AI Workshop"
-      style={{ position: "fixed", inset: 0, zIndex: 1000, background: "rgba(5,8,18,0.78)", backdropFilter: "blur(6px)", WebkitBackdropFilter: "blur(6px)", display: "flex", alignItems: "center", justifyContent: "center", padding: 20, animation: "fadeIn 0.35s ease both" }}
-      onClick={() => setOpen(false)}>
+    style={{ position: "fixed", inset: 0, zIndex: 1000, background: "rgba(5,8,18,0.78)", backdropFilter: "blur(6px)", WebkitBackdropFilter: "blur(6px)", display: "flex", alignItems: "center", justifyContent: "center", padding: 20, animation: "fadeIn 0.35s ease both" }}
+    onClick={() => setOpen(false)}>
       <div className="workshop-popup" onClick={(e) => e.stopPropagation()}
-        style={{ position: "relative", width: "100%", maxWidth: 980, background: "#0a1020", borderRadius: 18, overflow: "hidden", border: "1px solid rgba(255,255,255,0.08)", boxShadow: "0 30px 80px rgba(0,0,0,0.6),0 0 60px rgba(168,85,247,0.15)", display: "grid", gridTemplateColumns: "minmax(0,420px) minmax(0,1fr)", maxHeight: "92vh", animation: "popIn 0.45s cubic-bezier(.2,.8,.2,1) both" }}>
+      style={{ position: "relative", width: "100%", maxWidth: 980, background: "#0a1020", borderRadius: 18, overflow: "hidden", border: "1px solid rgba(255,255,255,0.08)", boxShadow: "0 30px 80px rgba(0,0,0,0.6),0 0 60px rgba(168,85,247,0.15)", display: "grid", gridTemplateColumns: "minmax(0,420px) minmax(0,1fr)", maxHeight: "92vh", animation: "popIn 0.45s cubic-bezier(.2,.8,.2,1) both" }}>
 
         <div className="workshop-popup-img" style={{ position: "relative", background: "#0d1424", minHeight: 380 }}>
           <img src="assets/amber.png" alt="Amber Hills speaking on stage" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 55%", display: "block" }} />
@@ -929,9 +839,9 @@ function WorkshopPopup() {
 
         <div style={{ padding: "44px clamp(28px,3.5vw,48px)", overflowY: "auto", position: "relative" }}>
           <button onClick={() => setOpen(false)} aria-label="Close"
-            style={{ position: "absolute", top: 18, right: 18, width: 36, height: 36, borderRadius: "50%", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.10)", color: "rgba(255,255,255,0.65)", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", padding: 0, transition: "all 0.2s" }}
-            onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(255,255,255,0.08)"; e.currentTarget.style.color = "#fff"; }}
-            onMouseLeave={(e) => { e.currentTarget.style.background = "rgba(255,255,255,0.04)"; e.currentTarget.style.color = "rgba(255,255,255,0.65)"; }}>
+          style={{ position: "absolute", top: 18, right: 18, width: 36, height: 36, borderRadius: "50%", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.10)", color: "rgba(255,255,255,0.65)", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", padding: 0, transition: "all 0.2s" }}
+          onMouseEnter={(e) => {e.currentTarget.style.background = "rgba(255,255,255,0.08)";e.currentTarget.style.color = "#fff";}}
+          onMouseLeave={(e) => {e.currentTarget.style.background = "rgba(255,255,255,0.04)";e.currentTarget.style.color = "rgba(255,255,255,0.65)";}}>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
           </button>
 
@@ -962,9 +872,9 @@ function WorkshopPopup() {
           </ul>
 
           <a href={WORKSHOP_FORM} target="_blank" rel="noreferrer"
-            style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 12, fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 15, letterSpacing: "1.2px", textTransform: "uppercase", color: "#fff", background: "linear-gradient(90deg,#ec4899,#a855f7)", padding: "18px 28px", borderRadius: 10, textDecoration: "none", boxShadow: "0 10px 30px rgba(236,72,153,0.30),0 0 60px rgba(168,85,247,0.15)", transition: "transform 0.2s, box-shadow 0.3s" }}
-            onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 14px 40px rgba(236,72,153,0.45),0 0 70px rgba(168,85,247,0.25)"; }}
-            onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "0 10px 30px rgba(236,72,153,0.30),0 0 60px rgba(168,85,247,0.15)"; }}>
+          style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 12, fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 15, letterSpacing: "1.2px", textTransform: "uppercase", color: "#fff", background: "linear-gradient(90deg,#ec4899,#a855f7)", padding: "18px 28px", borderRadius: 10, textDecoration: "none", boxShadow: "0 10px 30px rgba(236,72,153,0.30),0 0 60px rgba(168,85,247,0.15)", transition: "transform 0.2s, box-shadow 0.3s" }}
+          onMouseEnter={(e) => {e.currentTarget.style.transform = "translateY(-2px)";e.currentTarget.style.boxShadow = "0 14px 40px rgba(236,72,153,0.45),0 0 70px rgba(168,85,247,0.25)";}}
+          onMouseLeave={(e) => {e.currentTarget.style.transform = "translateY(0)";e.currentTarget.style.boxShadow = "0 10px 30px rgba(236,72,153,0.30),0 0 60px rgba(168,85,247,0.15)";}}>
             Save My Seat — It's Free
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
           </a>
@@ -989,9 +899,9 @@ function WorkshopPopup() {
 function WorkshopFloatingButton() {
   return (
     <button onClick={() => window.dispatchEvent(new Event("open-workshop-popup"))} aria-label="Open free workshop signup"
-      style={{ position: "fixed", right: 20, bottom: 20, zIndex: 900, display: "inline-flex", alignItems: "center", gap: 10, padding: "14px 24px", borderRadius: 8, border: "none", cursor: "pointer", fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 13, letterSpacing: "1.2px", textTransform: "uppercase", color: "#000", background: "linear-gradient(90deg,#ec4899,#a855f7)", boxShadow: "0 10px 30px rgba(236,72,153,0.30),0 0 50px rgba(168,85,247,0.18)", transition: "transform 0.2s, box-shadow 0.3s" }}
-      onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 14px 40px rgba(236,72,153,0.45),0 0 70px rgba(168,85,247,0.30)"; }}
-      onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "0 10px 30px rgba(236,72,153,0.30),0 0 50px rgba(168,85,247,0.18)"; }}>
+    style={{ position: "fixed", right: 20, bottom: 20, zIndex: 900, display: "inline-flex", alignItems: "center", gap: 10, padding: "14px 24px", borderRadius: 8, border: "none", cursor: "pointer", fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 13, letterSpacing: "1.2px", textTransform: "uppercase", color: "#000", background: "linear-gradient(90deg,#ec4899,#a855f7)", boxShadow: "0 10px 30px rgba(236,72,153,0.30),0 0 50px rgba(168,85,247,0.18)", transition: "transform 0.2s, box-shadow 0.3s" }}
+    onMouseEnter={(e) => {e.currentTarget.style.transform = "translateY(-2px)";e.currentTarget.style.boxShadow = "0 14px 40px rgba(236,72,153,0.45),0 0 70px rgba(168,85,247,0.30)";}}
+    onMouseLeave={(e) => {e.currentTarget.style.transform = "translateY(0)";e.currentTarget.style.boxShadow = "0 10px 30px rgba(236,72,153,0.30),0 0 50px rgba(168,85,247,0.18)";}}>
       <svg width="16" height="16" viewBox="0 0 24 24" fill="#000" aria-hidden="true">
         <path d="M12 2l1.6 5.4L19 9l-5.4 1.6L12 16l-1.6-5.4L5 9l5.4-1.6L12 2z" />
         <path d="M19 14l0.7 2.3L22 17l-2.3 0.7L19 20l-0.7-2.3L16 17l2.3-0.7L19 14z" opacity="0.85" />
@@ -1010,7 +920,6 @@ function App() {
       <ProblemSolution />
       <Services />
       <HowItWorks />
-      <Outcome />
       <WhyUs />
       <About />
       <Pricing />
