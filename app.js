@@ -449,7 +449,7 @@ function Services() {
             <div style={{ position: "absolute", inset: 0, background: "repeating-linear-gradient(90deg,transparent 0,transparent 6px,#0a1020 6px,#0a1020 10px)" }}></div>
           </div>
 
-          <div className="hiw-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 32, position: "relative", zIndex: 1 }}>
+          <div className="hiw-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 32, position: "relative", zIndex: 1 }}>
             {steps.map((s, i) =>
             <FadeIn key={s.n} delay={0.2 + i * 0.12}>
                 <div className="card-hover hiw-card" style={{ background: "linear-gradient(180deg,rgba(13,20,36,0.95),rgba(10,16,32,0.95))", border: "1px solid rgba(0,191,255,0.15)", borderRadius: 20, padding: "32px 28px 36px", height: "100%", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", position: "relative", transition: "all 0.3s" }}>
@@ -459,8 +459,10 @@ function Services() {
                     <div style={{ position: "absolute", top: -6, right: -6, fontFamily: "'Manrope', sans-serif", fontWeight: 800, fontSize: 13, color: "#000", background: "linear-gradient(135deg,#00bfff,#a855f7)", borderRadius: 100, padding: "4px 10px", letterSpacing: "0.5px", boxShadow: "0 4px 12px rgba(0,191,255,0.4)" }}>{s.n}</div>
                   </div>
 
-                  <h3 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: 22, color: "#fff", margin: "0 0 12px", letterSpacing: "-0.3px" }}>{s.title}</h3>
-                  <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.6)", lineHeight: 1.7, margin: 0 }}>{s.desc}</p>
+                  <div className="hiw-text" style={{ width: "100%" }}>
+                    <h3 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: 22, color: "#fff", margin: "0 0 12px", letterSpacing: "-0.3px" }}>{s.title}</h3>
+                    <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, color: "rgba(255,255,255,0.6)", lineHeight: 1.7, margin: 0 }}>{s.desc}</p>
+                  </div>
                 </div>
               </FadeIn>
             )}
@@ -469,11 +471,19 @@ function Services() {
       </div>
 
       <style>{`
-        @media(max-width:860px){
-          .hiw-grid{grid-template-columns:1fr!important;gap:20px!important}
+        @media(max-width:980px){
+          .hiw-grid{grid-template-columns:1fr!important;gap:20px!important;max-width:560px;margin:0 auto}
           .hiw-connector{display:none!important}
           .hiw-card{flex-direction:row!important;text-align:left!important;align-items:flex-start!important;gap:20px;padding:24px!important}
           .hiw-card > div:first-child{margin-bottom:0!important;flex-shrink:0;width:72px!important;height:72px!important}
+          .hiw-text{flex:1;min-width:0}
+          .hiw-card h3{font-size:20px!important}
+        }
+        @media(max-width:480px){
+          .hiw-card{padding:20px!important;gap:16px!important}
+          .hiw-card > div:first-child{width:60px!important;height:60px!important}
+          .hiw-card h3{font-size:18px!important;margin-bottom:8px!important}
+          .hiw-card p{font-size:14px!important}
         }
       `}</style>
     </section>);
