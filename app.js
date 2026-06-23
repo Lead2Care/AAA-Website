@@ -863,7 +863,7 @@ function WorkshopPopup() {
           </h3>
 
           <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 15, lineHeight: 1.7, color: "rgba(255,255,255,0.65)", margin: "0 0 26px" }}>
-            Join our free live workshop on <span style={{ color: "#fff", fontWeight: 600 }}>Thursday 21st May at 11am</span> and walk away with a clear starting point for transforming your business with AI.
+            Join our free live workshop on <span style={{ color: "#fff", fontWeight: 600 }}>Thursday 23rd July at 11am</span> and walk away with a clear starting point for transforming your business with AI.
           </p>
 
           <div style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", color: "#00bfff", marginBottom: 14 }}>What you'll get</div>
